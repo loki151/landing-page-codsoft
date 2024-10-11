@@ -1,0 +1,54 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+header{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.2)) , url(background.jpeg);
+    background-size: cover;
+}
+nav{
+    width: 100%;
+    height: 100px;
+    background: wheat;
+    color: #000;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.logo{
+    font-size: 2cm;
+    letter-spacing: 2px;
+}
+.menu a{
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 20px;
+    border-radius: 8px;
+    background: indianred;
+}
+.h-text{
+    position: absolute;
+    top: 50%;
+    max-width: 650px;
+    transform: traslate(-50%,-50%);
+    text-align: center;
+    color: #fff;
+}
+.h-text span{
+    letter-spacing: 5px;
+}
+.h-text h1{
+    font-size: 3.5cm;
+}
+.h-text a{
+    text-decoration: none;
+    letter-spacing: 5px;
+}
+.h-text a:hover{
+    border: 1px solid indianred;
+    background: transparent;
+}
